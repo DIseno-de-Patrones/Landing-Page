@@ -179,3 +179,54 @@ body::-webkit-scrollbar-thumb {
     margin: auto;
 }
 /*Fin de NOSOTROS*/
+
+/*inicio seccion usuarios*/
+h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.usuarios{
+    margin: 50px 0px;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;  
+}
+
+.tipo-usuarios{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tipo-usuarios div{
+    color:white;
+    max-width: 350px;
+    padding:50px;
+    background-color: #FF8333;
+    height: 100%;
+    border-radius: 25px;
+    margin: 80px 20px 0px 20px;
+}
+
+.tipo-usuarios div *{
+    margin:10px 0px 10px 0px;
+}
+
+.tipo-usuarios p{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.tipo-usuarios img{
+    max-width: 150px;
+    border-radius: 10000px;
+    margin: -130px auto 20px auto;
+    box-shadow: 0px 0px 25px -10px black;
+}
+/*fin usuarios*/
