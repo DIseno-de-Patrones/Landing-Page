@@ -5,95 +5,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Landing Page Open Source</title>
+    <title>GoBuy Landing Page</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <!--Empieza NOSOTROS  -->
+  <!--Empieza header  -->
+  <header>
+    <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <a class="navbar-brand" href="#">GoBuy</a>
+        <button class="btn btn-warning" type="submit">Login</button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--fin de seccion header-->
 
-     <section class="wave-contenedor website">
-        <img src="img/tienda.png" alt="">
-        <div class="contenedor-textos-main">
-            <h2 class="titulo left">Sobre Nosotros</h2>
-            <p class="parrafo">GoBuy es una aplicación web y móvil que permite comprar y/o ser parte de los viajeros y atender pedidos de los compradores. La apicacion fue desarrollada por el startup llamado "Go Buy" la cual es una compañía que se fundó el 24 de marzo del 2021 </p>
-            <a href="" class="cta">Aprende mas</a>
-        </div>
-    </section>
+  <div class="pt-5">
 
+      <!-- Empieza Seccion Inicio -->
+      <section class="px-3 py-4 text-white bg-dark mb-3">
+          <div class="col-12"><h2 class="titulo">TRAE TUS COMPRAS DE USA Y RECIBELAS EN TU CASA</h2></div>
+          <div class="col-12">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pega el link de tus pedido" aria-label="Search">
+              <button class="btn btn-success" type="submit">Iniciar pedido</button>
+            </form>
+          </div>      
+      </section>
+      <!-- Fin Seccion Inicio -->
 
+      <!-- Empieza Seccion Nosotros -->      
+      <section class="container pb-0 wave-contenedor website">
+        <div class="row">
+          <diV class="text-center col-12 col-md-6"><img src="img/tienda.png" alt="" class="img-fluid"></diV>
+          <diV class="col-12 col-md-6">
+            <div class="contenedor-textos-main text-center">
+              <h2 class="text-center titulo left">Sobre Nosotros</h2>
+              <p class="parrafo">GoBuy es una aplicación web y móvil que permite comprar y/o ser parte de los viajeros y atender
+                pedidos de los compradores. La apicacion fue desarrollada por el startup llamado "Go Buy" la cual es una compañía
+                que se fundó el 24 de marzo del 2021.</p>
+              <a href="" class="cta">Aprende más</a>
+            </div>
+          </diV> 
+        </div>
+      </section>      
+      <!--Fin Seccion Nosotros-->
+      
+      <!--Empieza Seccion Usuario-->
+        <div class="mt-4">
+          <div class="container">
+            <h2>Usuarios</h2>
+          </div>
+          <div class="pb-0 contenedor usuarios">
+            <div class="row tipo-usuarios">
+              <div class="col-12 col-md-6 usuario-viajero mb-5 mx-1">
+                <img src="img/usuario-viajero.jpg" alt="usuario-viajero">
+                <h3>Perfil del viajero</h3>
+                <p>Sabemos que tu mayor interes es viajar y conocer el mundo. Nosotros nos encarganmos de que puedas cumplir tus
+                  metas sin dejar de hacer lo que más te gusta.</p>
+                <h3>Aumenta tus ingresos</h3>
+                <p>Genera ingresas mientras haces lo que más te gusta. Trae productos de otros países para personas que lo
+                  necesiten tu país.</p>
+                <h3>Apoya a quién lo necesite</h3>
+                <p>Ayuda a otras personas trayendo productos que necesiten por un buen pago. Ellos ahorran y tu generas
+                  ingresos. ¡Todos ganan!</p>
+              </div>
+              <div class="col-12 col-md-6 usuario-comprador mb-3">
+                <img src="img/usuario-comprador.jpg" alt="usuario-viajero">
+                <h3>Perfil del comprador</h3>
+                <p>Entemos que las compras son muy importantes para ti y a veces puede ser una gran desafío. En GoBuy te damos
+                  la opción de poder comprar productos de otros países a un buen precio.</p>
+                <h3>Compra desde el extranjero</h3>
+                <p>Compra tus productos directamente de otro país sin problemas ni líos a través de un viajero de nuestra
+                  plataforma.</p>
+                <h3>Compra segura y rápida</h3>
+                <p>Recibe tus productos en corto tiempo y de manera segura pagando a través de nuestra plataforma. Si algo
+                  sucedo con tu pedido ¡te devolvemos todo el dinero!</p>
+              </div>
+            </div>
+          </div>
+        </div>        
+      <!--Fin Seccion Usuarios-->      
+      
+      <!-- Empieza Seccion equipo-->
+      <section class="container mb-4">
+        <h2>Nuestro Equipo</h2>
+        <div class="integrantes">
+          <br />
+          <figure>
+            <img src="img/1.jpg" alt="" />
+            <div class="capa">
+              <h3>Sebastian Trujillo</h3>
+              <p>CEO</p>
+            </div>
+          </figure>
+          <figure>
+            <img src="img/5.png" alt="" />
+            <div class="capa">
+              <h3>Pietro Minaya</h3>
+              <p>Programador</p>
+            </div>
+          </figure>
+          <figure>
+            <img src="img/3.png" alt="" />
+            <div class="capa">
+              <h3>Nicolas Hernandez</h3>
+              <p>CTO</p>
+            </div>
+          </figure>
+          <figure>
+            <img src="img/2.jpg" alt="" />
+            <div class="capa">
+              <h3>Diego Osorio</h3>
+              <p>COO</p>
+            </div>
+          </figure>
+          <figure>
+            <img src="img/4.jpg" alt="" />
+            <div class="capa">
+              <h3>Marcelo Torres</h3>
+              <p>Jefe de área de produccion</p>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <!-- Fin Seccion Equipo-->
+  </div>
 
-    <div class="integrantes">
-      <h2 class="titulo">Nuestro Equipo</h2>
-      <figure>
-        <img src="img/1.jpg" alt="" />
-        <div class="capa">
-          <h3>Sebastian Trujillo</h3>
-          <p>CEO</p>
-        </div>
-      </figure>
-      <figure>
-        <img src="img/5.png" alt="" />
-        <div class="capa">
-          <h3>Pietro Minaya</h3>
-          <p>Programador</p>
-        </div>
-      </figure>
-      <figure>
-        <img src="img/3.png" alt="" />
-        <div class="capa">
-          <h3>Nicolas Hernandez</h3>
-          <p>CTO</p>
-        </div>
-      </figure>
-      <figure>
-        <img src="img/2.jpg" alt="" />
-        <div class="capa">
-          <h3>Diego Osorio</h3>
-          <p>COO</p>
-        </div>
-      </figure>
-      <figure>
-        <img src="img/4.jpg" alt="" />
-        <div class="capa">
-          <h3>Marcelo Torres</h3>
-          <p>Jefe de área de produccion</p>
-        </div>
-      </figure>
+  <!-- Empieza Seccion Footer -->
+  <footer>
+    <div class="py-3 text-center text-white bg-dark">
+      Escribenos a:
+      <div>
+        <a href="info@GoBuy" target="_blank" rel="noopener noreferrer" className="text-reset">         
+          <p>info@GoBuy</p>
+        </a>
+      </div>
+      <div>
+        Whatsapp:
+        <p>999999999</p>
+      </div>
     </div>
-    <!--fin de seccion nosotros-->
+  </footer>
+  <!-- Fin Seccion Footer -->
 
-
-    <!--empieza seccion usuario-->
-    <div class="usuarios">
-			<div class="contenedor">
-				<h2>Usuarios</h2>
-				<div class="tipo-usuarios">
-					<div class="usuario-viajero">
-						<img src="img/usuario-viajero.jpg" alt="usuario-viajero">
-						<h3>Perfil del viajero</h3>
-						<p>Sabemos que tu mayor interes es viajar y conocer el mundo. Nosotros nos encarganmos de que puedas cumplir tus metas sin dejar de hacer lo que más te gusta.</p>
-						<h3>Aumenta tus ingresos</h3>
-						<p>Genera ingresas mientras haces lo que más te gusta. Trae productos de otros países para personas que lo necesiten tu país.</p>
-						<h3>Apoya a quién lo necesite</h3>
-						<p>Ayuda a otras personas trayendo productos que necesiten por un buen pago. Ellos ahorran y tu generas ingresos. ¡Todos ganan!</p>
-					</div>
-					<div class="usuario-comprador">
-							<img src="img/usuario-comprador.jpg" alt="usuario-viajero">
-							<h3>Perfil del comprador</h3>
-							<p>Entemos que las compras son muy importantes para ti y a veces puede ser una gran desafío. En GoBuy te damos la opción de poder comprar productos de otros países a un buen precio.</p>
-							<h3>Compra desde el extranjero</h3>
-							<p>Compra tus productos directamente de otro país sin problemas ni líos a través de un viajero de nuestra plataforma.</p>
-							<h3>Compra segura y rápida</h3>
-							<p>Recibe tus productos en corto tiempo y de manera segura pagando a través de nuestra plataforma. Si algo sucedo con tu pedido ¡te devolvemos todo el dinero!</p>
-					</div>
-				</div>
-			</div>
-	</div>
-  <!--fin seccion usuarios--> 
-
-    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
