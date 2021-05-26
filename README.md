@@ -7,4 +7,4 @@ La aplicación GoBuy ofrece la facilidad de poder comprar productos de Estados U
 Integrado con Whatsapp
 La aplicacion generara una conversacion entre Comprador y Viajero utilizando lo REST API de Whatsapp para que puedar tener una conversacion y hablar sobre el pedido 
 
-Team Go Buy
+Team GoBuy.
